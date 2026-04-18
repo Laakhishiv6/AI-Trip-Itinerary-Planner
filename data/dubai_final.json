@@ -1,0 +1,178 @@
+{
+  "city": "Dubai",
+  "data": [
+    {
+      "name": "Burj Khalifa",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.1970,
+      "lon": 55.2741,
+      "address": "Sheikh Mohammed bin Rashid Boulevard",
+      "formatted_address": "Burj Khalifa, Downtown Dubai, UAE",
+      "website": "https://www.burjkhalifa.ae/",
+      "source": "geoapify"
+    },
+    {
+      "name": "The Dubai Mall",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.1970,
+      "lon": 55.2790,
+      "address": "Financial Center Street",
+      "formatted_address": "Dubai Mall, Downtown Dubai, UAE",
+      "website": "https://www.thedubaimall.com/",
+      "opening_hours": "Mo-Su 10:00-02:00",
+      "source": "geoapify"
+    },
+    {
+      "name": "Dubai Fountain",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.1951,
+      "lon": 55.2752,
+      "address": "Downtown Dubai",
+      "formatted_address": "Dubai Fountain, Downtown Dubai, UAE",
+      "source": "geoapify"
+    },
+    {
+      "name": "Jumeirah Mosque",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.2340,
+      "lon": 55.2655,
+      "address": "Jumeirah Beach Road",
+      "formatted_address": "Jumeirah Mosque, Dubai, UAE",
+      "website": "https://www.jumeirahmosque.ae/",
+      "opening_hours": "Sa-Th 09:00-16:00",
+      "source": "geoapify"
+    },
+    {
+      "name": "Al Fahidi Historical Neighborhood",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.2633,
+      "lon": 55.2972,
+      "address": "Bur Dubai",
+      "formatted_address": "Al Fahidi Historical District, Dubai, UAE",
+      "source": "geoapify"
+    },
+    {
+      "name": "Atlantis Aquaventure Waterpark",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "attraction",
+      "lat": 25.1304,
+      "lon": 55.1171,
+      "address": "Palm Jumeirah",
+      "formatted_address": "Atlantis Aquaventure, Palm Jumeirah, Dubai",
+      "source": "external"
+    },
+
+    {
+      "name": "Zuma Dubai",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "restaurant",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "address": "Gate Village, DIFC",
+      "formatted_address": "Zuma, DIFC, Dubai, UAE",
+      "website": "https://zumarestaurant.com/",
+      "source": "external"
+    },
+    {
+      "name": "Pierchic",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "restaurant",
+      "lat": 25.1312,
+      "lon": 55.1850,
+      "address": "Al Qasr Hotel",
+      "formatted_address": "Pierchic, Jumeirah, Dubai, UAE",
+      "source": "external"
+    },
+    {
+      "name": "Al Fanar Restaurant",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "restaurant",
+      "lat": 25.2522,
+      "lon": 55.3245,
+      "address": "Festival City",
+      "formatted_address": "Al Fanar Restaurant, Dubai Festival City, UAE",
+      "source": "external"
+    },
+    {
+      "name": "Ravi Restaurant",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "restaurant",
+      "lat": 25.2285,
+      "lon": 55.2773,
+      "address": "Satwa",
+      "formatted_address": "Ravi Restaurant, Al Satwa, Dubai, UAE",
+      "source": "external"
+    },
+
+    {
+      "name": "Atlantis, The Palm",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "hotel",
+      "lat": 25.1305,
+      "lon": 55.1167,
+      "address": "Palm Jumeirah",
+      "formatted_address": "Atlantis The Palm, Dubai, UAE",
+      "source": "booking"
+    },
+    {
+      "name": "Address Beach Resort",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "hotel",
+      "lat": 25.0723,
+      "lon": 55.1267,
+      "address": "Jumeirah Beach Residence",
+      "formatted_address": "Address Beach Resort, Dubai, UAE",
+      "source": "booking"
+    },
+    {
+      "name": "Rove City Walk",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "hotel",
+      "lat": 25.2053,
+      "lon": 55.2681,
+      "address": "Al Wasl",
+      "formatted_address": "Rove City Walk, Dubai, UAE",
+      "source": "booking"
+    },
+    {
+      "name": "Palace Dubai Creek Harbour",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "hotel",
+      "lat": 25.2042,
+      "lon": 55.3474,
+      "address": "Dubai Creek Harbour",
+      "formatted_address": "Palace Dubai Creek Harbour, Dubai, UAE",
+      "source": "booking"
+    },
+    {
+      "name": "Conrad Dubai",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "category": "hotel",
+      "lat": 25.2257,
+      "lon": 55.2841,
+      "address": "Sheikh Zayed Road",
+      "formatted_address": "Conrad Dubai, Sheikh Zayed Road, UAE",
+      "source": "booking"
+    }
+  ]
+}

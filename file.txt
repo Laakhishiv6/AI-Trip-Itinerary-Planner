@@ -1,0 +1,69 @@
+You are a senior frontend engineer.
+
+Generate a complete frontend-only application for an AI Itinerary Planner in @frontend/ directly only using:
+
+- React (Vite)
+- TypeScript
+- Tailwind CSS
+- React Router
+- Component-based architecture
+
+IMPORTANT:
+
+
+Strictly match the UI design from the images provided in this project:
+- dashboard.png
+- Planning.png
+- Generation.png
+- login.png
+
+Do NOT create your own design. Replicate layout, spacing, colors, and structure as closely as possible.
+
+-It should have the same styling as shown in dashboard.png image which i have uploaded in this project's folder.
+- It should consist of login/signup page which asks user for email and password during login and email,password, Full Name during signup.
+- After login the dashboard should look like how it is in the image which i uploaded as dashboard.png in this folder.
+- In Dashboard upon clicking  "Plan A Trip" it should direct to other page just like how it is shown in Planning.png image which i uploaded in this folder .Give options as shown such as  "Where do you want to go?" , start data end date, number of travellers, budget preference, activity suggestions in which we can select multiple options such as Beaches, Nightlife, Zoo etc , and food preferences such as non veg, veg, halal.
+- Upon setting all the options the system should generate an Itinery just like how it is shown in Generation.png image which i uploaded in this project's folder.
+
+
+For knowing about the context of what has happened in the previous session i have created context in a file in this project folder named as compact_summary_1.txt .
+You are a backend engineer.
+1. Reads JSON files from /data folder
+2. Stores data into DynamoDB
+
+- Now your task is to create a database in DynamoDB by creating a microservice architecture inside of @backend folder.
+-  create a  microservice using fastapi which stores data in dynamoDB using the data which is stored in @data folder of this project. In @data you will findlot  of json files for different cities and those in turn contains data for resturants , places etc .
+- - You need to store this data in dynamoDB efficiently.
+
+Requirements:
+
+DynamoDB design:
+
+* Table: travel_data
+* Partition key: city
+* Sort key: category#name
+
+Features:
+
+* Batch write (efficient)
+* Avoid duplicates
+
+Endpoints:
+
+* GET /explore?city=
+* GET /places?city=&category=
+* GET /health
+
+Use:
+
+* boto3
+* FastAPI
+* Pydantic
+
+Output:
+
+* Full code
+* Folder structure
+* Setup instructions
+
+

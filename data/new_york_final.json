@@ -1,0 +1,225 @@
+{
+  "city": "New York",
+  "data": [
+    {
+      "name": "The Prince Kitano New York",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7495287351601,
+      "lon": -73.9798518642783,
+      "rating": 8.9,
+      "price_level": 70632.69,
+      "source": "booking"
+    },
+    {
+      "name": "West Side YMCA",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7708451,
+      "lon": -73.9806124,
+      "rating": 6.7,
+      "price_level": 50519.69,
+      "source": "booking"
+    },
+    {
+      "name": "The Shoreham",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7624213001252,
+      "lon": -73.9763680100441,
+      "rating": 7.3,
+      "price_level": 57023.87,
+      "source": "booking"
+    },
+    {
+      "name": "New Yorker by Lotte Hotels",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7526284209899,
+      "lon": -73.9933524280787,
+      "rating": 7.7,
+      "price_level": 54489.44,
+      "source": "booking"
+    },
+    {
+      "name": "Pod Times Square",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7583945,
+      "lon": -73.9930985,
+      "rating": 8.5,
+      "price_level": 48410.15,
+      "source": "booking"
+    },
+    {
+      "name": "Hilton Garden Inn New York/Manhattan-Chelsea",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7466031534714,
+      "lon": -73.9914309605956,
+      "rating": 7.8,
+      "price_level": 57502.93,
+      "source": "booking"
+    },
+    {
+      "name": "Holiday Inn New York City - Times Square by IHG",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.755131,
+      "lon": -73.99134,
+      "rating": 7.8,
+      "price_level": 63034.05,
+      "source": "booking"
+    },
+    {
+      "name": "Hilton New York Fashion District",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.745621157369,
+      "lon": -73.9936709403992,
+      "rating": 8.1,
+      "price_level": 65387.33,
+      "source": "booking"
+    },
+    {
+      "name": "JGSTAY - Times Square",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.760346,
+      "lon": -73.987797,
+      "rating": 7.5,
+      "price_level": 49583.05,
+      "source": "booking"
+    },
+    {
+      "name": "The Renwick",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7503059560948,
+      "lon": -73.9775139838457,
+      "rating": 8.4,
+      "price_level": 58062.30,
+      "source": "booking"
+    },
+    {
+      "name": "Doubletree By Hilton New York Times Square West",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7568016379,
+      "lon": -73.9930698658,
+      "rating": 7.3,
+      "price_level": 56992.12,
+      "source": "booking"
+    },
+    {
+      "name": "Westgate New York Grand Central",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7495510867387,
+      "lon": -73.9718618988991,
+      "rating": 8.5,
+      "price_level": 59504.15,
+      "source": "booking"
+    },
+    {
+      "name": "Sanctuary Hotel New York",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7585038136619,
+      "lon": -73.983276039362,
+      "rating": 8.2,
+      "price_level": 65555.42,
+      "source": "booking"
+    },
+    {
+      "name": "Orchard Street Hotel",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.721144622138,
+      "lon": -73.9887831140861,
+      "rating": 7.7,
+      "price_level": 51827.07,
+      "source": "booking"
+    },
+    {
+      "name": "DoubleTree by Hilton New York Downtown",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7039428170782,
+      "lon": -74.012379348278,
+      "rating": 7.7,
+      "price_level": 68184.17,
+      "source": "booking"
+    },
+    {
+      "name": "Hyatt House New York/Chelsea",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.746288,
+      "lon": -73.990701,
+      "rating": 8.6,
+      "price_level": 67329.71,
+      "source": "booking"
+    },
+    {
+      "name": "Artezen Hotel",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7096726,
+      "lon": -74.0086147,
+      "rating": 9.3,
+      "price_level": 54538.00,
+      "source": "booking"
+    },
+    {
+      "name": "Hyatt Place New York City - Times Square",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.755967,
+      "lon": -73.993703,
+      "rating": 7.8,
+      "price_level": 138301.39,
+      "source": "booking"
+    },
+    {
+      "name": "SpringHill Suites by Marriott New York Manhattan/Times Square South",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.754011,
+      "lon": -73.993972,
+      "rating": 8.4,
+      "price_level": 56992.12,
+      "source": "booking"
+    },
+    {
+      "name": "Hotel St. James",
+      "city": "New York",
+      "country": "USA",
+      "category": "hotel",
+      "lat": 40.7570435220529,
+      "lon": -73.9829870313407,
+      "rating": 8.2,
+      "price_level": 49740.87,
+      "source": "booking"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "city": "Bangkok",
+  "data": [
+    {
+      "name": "Grand Palace",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7500,
+      "lon": 100.4913,
+      "address": "Na Phra Lan Road",
+      "formatted_address": "Grand Palace, Na Phra Lan Rd, Phra Nakhon, Bangkok 10200, Thailand",
+      "website": "https://www.royalgrandpalace.th/en/home",
+      "source": "external"
+    },
+    {
+      "name": "Wat Phra Kaew",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7516,
+      "lon": 100.4927,
+      "address": "Temple of the Emerald Buddha",
+      "formatted_address": "Wat Phra Kaew, Phra Nakhon, Bangkok 10200, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Wat Arun",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7437,
+      "lon": 100.4889,
+      "address": "Arun Amarin Road",
+      "formatted_address": "Wat Arun Ratchawararam, Bangkok Yai, Bangkok 10600, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Wat Pho",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7466,
+      "lon": 100.4930,
+      "address": "Sanam Chai Road",
+      "formatted_address": "Wat Pho, Phra Nakhon, Bangkok 10200, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Chatuchak Weekend Market",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7998,
+      "lon": 100.5502,
+      "address": "Kamphaeng Phet 2 Road",
+      "formatted_address": "Chatuchak Market, Bangkok 10900, Thailand",
+      "opening_hours": "Sat-Sun 09:00-18:00",
+      "source": "external"
+    },
+    {
+      "name": "Lumphini Park",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7300,
+      "lon": 100.5410,
+      "address": "Rama IV Road",
+      "formatted_address": "Lumphini Park, Pathum Wan, Bangkok 10330, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Yaowarat (Chinatown)",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "attraction",
+      "lat": 13.7396,
+      "lon": 100.5098,
+      "address": "Yaowarat Road",
+      "formatted_address": "Yaowarat Rd, Samphanthawong, Bangkok 10100, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Sirocco Restaurant",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "restaurant",
+      "lat": 13.7244,
+      "lon": 100.5143,
+      "address": "Lebua State Tower",
+      "formatted_address": "Sirocco, State Tower, Bangkok, Thailand",
+      "website": "https://lebua.com/restaurants/sirocco/",
+      "source": "external"
+    },
+    {
+      "name": "Thipsamai Pad Thai",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "restaurant",
+      "lat": 13.7532,
+      "lon": 100.5018,
+      "address": "Maha Chai Road",
+      "formatted_address": "Thipsamai, Phra Nakhon, Bangkok 10200, Thailand",
+      "opening_hours": "17:00-02:00",
+      "source": "external"
+    },
+    {
+      "name": "Jay Fai",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "restaurant",
+      "lat": 13.7536,
+      "lon": 100.5015,
+      "address": "Maha Chai Road",
+      "formatted_address": "Jay Fai, Bangkok, Thailand",
+      "source": "external"
+    },
+    {
+      "name": "Gaggan Anand",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "restaurant",
+      "lat": 13.7355,
+      "lon": 100.5410,
+      "address": "Sukhumvit",
+      "formatted_address": "Gaggan Anand, Bangkok, Thailand",
+      "website": "https://gaggananand.com/",
+      "source": "external"
+    },
+    {
+      "name": "Somboon Seafood",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "category": "restaurant",
+      "lat": 13.7465,
+      "lon": 100.5331,
+      "address": "Surawong Road",
+      "formatted_address": "Somboon Seafood, Bangkok, Thailand",
+      "source": "external"
+    }
+  ]
+}

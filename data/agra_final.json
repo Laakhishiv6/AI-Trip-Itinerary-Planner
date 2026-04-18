@@ -1,0 +1,82 @@
+{
+  "city": "Agra",
+  "data": [
+    {
+      "name": "Taj Mahal",
+      "city": "Agra",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.1750075,
+      "lon": 78.0421013,
+      "address": "Taj Mahal",
+      "formatted_address": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra - 282004, Uttar Pradesh, India",
+      "website": "https://www.tajmahal.gov.in/",
+      "source": "geoapify"
+    },
+    {
+      "name": "I'timād-ud-Daulah's Tomb",
+      "city": "Agra",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.1928682,
+      "lon": 78.0309945,
+      "address": "I'timād-ud-Daulah's Tomb",
+      "formatted_address": "I'timād-ud-Daulah's Tomb, SH62, Agra - 402004, Uttar Pradesh, India",
+      "opening_hours": "Fr-Th 08:00-24:00",
+      "source": "geoapify"
+    },
+    {
+      "name": "Ram bagh",
+      "city": "Agra",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.2054623,
+      "lon": 78.0384543,
+      "address": "Ram bagh",
+      "formatted_address": "Ram bagh, Balkeshwar, Agra, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Sheroes Hangout Cafe",
+      "city": "Agra",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.1603131,
+      "lon": 78.053642,
+      "address": "Sheroes Hangout Cafe",
+      "formatted_address": "Sheroes Hangout Cafe, Taj East Gate Road, Taj Ganj, Agra - 282001, Uttar Pradesh, India",
+      "opening_hours": "Mo-Su 10:00-22:00",
+      "phone": "+919958066951",
+      "website": "https://www.chhanv.org/",
+      "source": "geoapify"
+    },
+    {
+      "name": "Joney's place",
+      "city": "Agra",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.1692084,
+      "lon": 78.0418721,
+      "address": "Joney's place",
+      "formatted_address": "Joney's place, Taj East Gate Road, Taj Ganj, Agra - 282004, Uttar Pradesh, India",
+      "opening_hours": "Mo-Su 05:00-22:30",
+      "cuisine": "italian;indian;asian",
+      "phone": "9837339686",
+      "source": "geoapify"
+    },
+    {
+      "name": "Sardaar Ji Da Dhaba",
+      "city": "Agra",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.159432,
+      "lon": 77.9935278,
+      "address": "Sardaar Ji Da Dhaba",
+      "formatted_address": "Sardaar Ji Da Dhaba, kachhipura (ward no:7), Agra Cantonment, Agra - 280001, Uttar Pradesh, India",
+      "opening_hours": "24/7",
+      "cuisine": "indian;chinese",
+      "phone": "8171117047",
+      "source": "geoapify"
+    }
+  ]
+}

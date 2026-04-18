@@ -1,0 +1,211 @@
+{
+  "city": "Milan",
+  "data": [
+   
+    {
+      "type": "hotel",
+      "name": "Isola Green Suite - 2 Bedrooms - Free Parking",
+      "lat": 45.4982186,
+      "lon": 9.1923691,
+      "price": 31233.06,
+      "currency": "INR",
+      "rating": 9.0,
+      "review_count": 3,
+      "stars": 3,
+      "checkin": "15:00-23:00",
+      "checkout": "08:00-10:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "UNA Hotels Galles Milano",
+      "lat": 45.480388769715,
+      "lon": 9.21173840761185,
+      "price": 41722.94,
+      "currency": "INR",
+      "rating": 8.3,
+      "review_count": 6437,
+      "stars": 4,
+      "checkin": "14:00-00:00",
+      "checkout": "00:00-12:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Amedia Hotel Milan, Trademark Collection by Wyndham",
+      "lat": 45.448414,
+      "lon": 9.119382,
+      "price": 28555.94,
+      "currency": "INR",
+      "rating": 8.3,
+      "review_count": 5903,
+      "stars": 4,
+      "checkin": "15:00-00:00",
+      "checkout": "05:00-11:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Calimala Milano",
+      "lat": 45.4730262278723,
+      "lon": 9.20964384915205,
+      "price": 75336.44,
+      "currency": "INR",
+      "rating": 9.5,
+      "review_count": 592,
+      "stars": 4,
+      "checkin": "15:00-00:00",
+      "checkout": "00:00-11:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "B&B Hotel Milano City Center Duomo",
+      "lat": 45.4674469882959,
+      "lon": 9.18491475330352,
+      "price": 67457.65,
+      "currency": "INR",
+      "rating": 8.5,
+      "review_count": 1490,
+      "stars": 3,
+      "checkin": "14:00-00:00",
+      "checkout": "00:00-12:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Radisson Collection Hotel, Santa Sofia Milan",
+      "lat": 45.4559248,
+      "lon": 9.1877159,
+      "price": 91550.88,
+      "currency": "INR",
+      "rating": 9.0,
+      "review_count": 3445,
+      "stars": 5,
+      "checkin": "15:00-00:00",
+      "checkout": "00:00-12:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Homy Apartment Cairoli",
+      "lat": 45.4681595,
+      "lon": 9.1831464,
+      "price": 49648.99,
+      "currency": "INR",
+      "rating": 0,
+      "review_count": 0,
+      "stars": 0,
+      "checkin": "16:00-20:00",
+      "checkout": "00:00-10:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Milan Suite Hotel",
+      "lat": 45.5002222668011,
+      "lon": 9.14252132177353,
+      "price": 29744.67,
+      "currency": "INR",
+      "rating": 8.6,
+      "review_count": 2104,
+      "stars": 4,
+      "checkin": "14:00-00:00",
+      "checkout": "00:00-12:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Leonardo Hotel Milan City Center",
+      "lat": 45.4823220343117,
+      "lon": 9.17566537857056,
+      "price": 37301.19,
+      "currency": "INR",
+      "rating": 8.1,
+      "review_count": 1615,
+      "stars": 4,
+      "checkin": "14:00-00:00",
+      "checkout": "00:00-12:00",
+      "source": "booking"
+    },
+    {
+      "type": "hotel",
+      "name": "Carcano Mood Apartment",
+      "lat": 45.4750117,
+      "lon": 9.1482967,
+      "price": 46747.13,
+      "currency": "INR",
+      "rating": 0,
+      "review_count": 0,
+      "stars": 0,
+      "checkin": "15:00-19:00",
+      "checkout": "08:00-11:00",
+      "source": "booking"
+    },
+
+  
+    {
+      "type": "attraction",
+      "name": "Santa Maria delle Grazie",
+      "lat": 45.4659764,
+      "lon": 9.1711319,
+      "category": "heritage_site",
+      "opening_hours": "Mo-Sa 09:00-12:20, 15:00-17:50; Su 15:00-17:50",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "Duomo di Milano",
+      "lat": 45.4641669,
+      "lon": 9.1916121,
+      "category": "cathedral",
+      "opening_hours": "Mo-Su 08:00-19:00",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "Basilica di Sant'Ambrogio",
+      "lat": 45.4623754,
+      "lon": 9.1758455,
+      "category": "church",
+      "opening_hours": "Mo-Sa 10:00-12:00, 14:30-18:00; Su 15:00-17:00",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "Basilica di San Lorenzo Maggiore",
+      "lat": 45.4580847,
+      "lon": 9.1820113,
+      "category": "church",
+      "opening_hours": "Mo-Sa 08:00-18:30; Su 09:00-19:00",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "Torre Branca",
+      "lat": 45.4732851,
+      "lon": 9.1728848,
+      "category": "viewpoint",
+      "opening_hours": "Variable",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "San Maurizio al Monastero Maggiore",
+      "lat": 45.4654089,
+      "lon": 9.1789568,
+      "category": "church",
+      "opening_hours": "Tu-Su 10:00-17:30",
+      "source": "openstreetmap"
+    },
+    {
+      "type": "attraction",
+      "name": "Anfiteatro Romano",
+      "lat": 45.4574662,
+      "lon": 9.1787197,
+      "category": "archaeological_site",
+      "opening_hours": "N/A",
+      "source": "openstreetmap"
+    }
+  ]
+}

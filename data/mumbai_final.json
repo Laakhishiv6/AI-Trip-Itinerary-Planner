@@ -1,0 +1,206 @@
+{
+  "city": "Mumbai",
+  "data": [
+
+   
+    {
+      "name": "Sion Fort",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0466141,
+      "lon": 72.8675736,
+      "address": "Sion Fort",
+      "formatted_address": "Sion Fort, Road No 1, Sion East, Mumbai - 400022, Maharashtra, India",
+      "opening_hours": "Mo-Su 04:00-20:00",
+      "website": "https://www.maharashtratourism.gov.in/",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Riwa Fort",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0509899,
+      "lon": 72.8601653,
+      "address": "Riwa Fort",
+      "formatted_address": "Riwa Fort, Dharavi Depot Road, Mumbai - 400051, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Mahim Fort",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0420113,
+      "lon": 72.8381267,
+      "address": "Mahim Fort",
+      "formatted_address": "Mahim Fort, Mahim, Mumbai - 400016, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+
+
+    {
+      "name": "Dr Babasaheb Ambedkar Statue",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.07022,
+      "lon": 72.8287784,
+      "address": "Dr. BR Ambedkar Road",
+      "formatted_address": "Dr Babasaheb Ambedkar, Mumbai - 400052, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Swami Vivekananda Statue",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0452165,
+      "lon": 72.8892488,
+      "address": "3rd Lane, Chembur",
+      "formatted_address": "Swami Vivekananda Statue, Mumbai - 400074, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Chhatrapati Shivaji Maharaj Statue",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0383925,
+      "lon": 72.8907614,
+      "address": "RCF Road",
+      "formatted_address": "Chhatrapati Shivaji Maharaj Statue, Mumbai - 400074, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "St John The Baptist Shrine",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "attraction",
+      "lat": 19.0481951,
+      "lon": 72.8258974,
+      "address": "St John Baptist Road",
+      "formatted_address": "St John The Baptist Shrine, Mumbai - 400050, Maharashtra, India",
+      "source": "openstreetmap"
+    },
+
+   
+    {
+      "name": "Yugo Sushi",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 19.0630814,
+      "lon": 72.8247526,
+      "address": "Pali Mala Road",
+      "formatted_address": "Yugo Sushi, Mumbai - 400050, Maharashtra, India",
+      "cuisine": "japanese;sushi",
+      "opening_hours": "Tu-Su 12:00-23:00",
+      "phone": "+91 97692 53378",
+      "website": "https://www.toku-enterprises.com/",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Bastian At The Top",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 19.0249945,
+      "lon": 72.8415353,
+      "address": "Dadar West",
+      "formatted_address": "Bastian At The Top, Mumbai - 400028, Maharashtra, India",
+      "cuisine": "seafood;fine_dining",
+      "opening_hours": "Tu-Su 12:00-01:00",
+      "phone": "02250333555",
+      "website": "https://www.bastianhospitality.com/bastianattop",
+      "source": "openstreetmap"
+    },
+    {
+      "name": "Vietnom Mumbai",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 19.0658523,
+      "lon": 72.8332728,
+      "address": "23rd Road",
+      "formatted_address": "Vietnom Mumbai, Mumbai - 400052, Maharashtra, India",
+      "cuisine": "vietnamese",
+      "source": "openstreetmap"
+    },
+
+    
+    {
+      "name": "The Taj Mahal Tower, Mumbai",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hotel",
+      "lat": 18.9215006,
+      "lon": 72.8332896,
+      "rating": 9.3,
+      "price": 34200,
+      "currency": "INR",
+      "source": "booking"
+    },
+    {
+      "name": "Aurika Mumbai International Airport",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hotel",
+      "lat": 19.103475,
+      "lon": 72.862584,
+      "rating": 8.5,
+      "price": 20984,
+      "currency": "INR",
+      "source": "booking"
+    },
+    {
+      "name": "Ginger Mumbai Airport",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hotel",
+      "lat": 19.097355,
+      "lon": 72.853804,
+      "rating": 7.3,
+      "price": 12000,
+      "currency": "INR",
+      "source": "booking"
+    },
+    {
+      "name": "Trident Nariman Point",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hotel",
+      "lat": 18.9276509,
+      "lon": 72.82058,
+      "rating": 9.0,
+      "price": 31000,
+      "currency": "INR",
+      "source": "booking"
+    },
+    {
+      "name": "Zostel Mumbai",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hostel",
+      "lat": 19.1196471,
+      "lon": 72.8841552,
+      "rating": 8.1,
+      "price": 7698,
+      "currency": "INR",
+      "source": "booking"
+    },
+    {
+      "name": "Backpacker Cowies",
+      "city": "Mumbai",
+      "country": "India",
+      "category": "hostel",
+      "lat": 18.920115,
+      "lon": 72.830836,
+      "rating": 7.9,
+      "price": 9144,
+      "currency": "INR",
+      "source": "booking"
+    }
+  ]
+}

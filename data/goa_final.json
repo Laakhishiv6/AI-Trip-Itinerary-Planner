@@ -1,0 +1,150 @@
+{
+  "city": "Goa",
+  "data": [
+    {
+      "name": "Kuskem Waterfall",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.2992,
+      "lon": 74.1240,
+      "address": "Hathkhamba-Goa Road",
+      "formatted_address": "Kuskem Waterfall, Goa, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Baga Beach",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.5553,
+      "lon": 73.7517,
+      "address": "Baga",
+      "formatted_address": "Baga Beach, Goa, India",
+      "source": "external"
+    },
+    {
+      "name": "Calangute Beach",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.5439,
+      "lon": 73.7553,
+      "address": "Calangute",
+      "formatted_address": "Calangute Beach, Goa, India",
+      "source": "external"
+    },
+    {
+      "name": "Dudhsagar Falls",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.3144,
+      "lon": 74.3146,
+      "address": "Bhagwan Mahavir Wildlife Sanctuary",
+      "formatted_address": "Dudhsagar Falls, Goa, India",
+      "source": "external"
+    },
+    {
+      "name": "Fort Aguada",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.4920,
+      "lon": 73.7736,
+      "address": "Candolim",
+      "formatted_address": "Fort Aguada, Goa, India",
+      "source": "external"
+    },
+    {
+      "name": "Basilica of Bom Jesus",
+      "city": "Goa",
+      "country": "India",
+      "category": "attraction",
+      "lat": 15.5009,
+      "lon": 73.9113,
+      "address": "Old Goa",
+      "formatted_address": "Basilica of Bom Jesus, Goa, India",
+      "source": "external"
+    },
+
+    {
+      "name": "Azavedo Bar & Restaurant",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2913,
+      "lon": 74.0412,
+      "address": "Curtorim",
+      "formatted_address": "Azavedo Bar & Restaurant, Goa, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Shilpa Restaurant",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2630,
+      "lon": 74.1085,
+      "address": "Curchorem",
+      "formatted_address": "Shilpa Restaurant, Goa, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Flora Family Restaurant & Pub",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2631,
+      "lon": 74.1094,
+      "address": "Curchorem",
+      "formatted_address": "Flora Family Restaurant & Pub, Goa, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Bollywood Cafe Bar & Restaurant",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2634,
+      "lon": 74.1040,
+      "address": "Curchorem",
+      "formatted_address": "Bollywood Cafe Bar & Restaurant, Goa, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Sangela Restaurant",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2916,
+      "lon": 74.0501,
+      "address": "Curtorim",
+      "formatted_address": "Sangela Restaurant, Goa, India",
+      "cuisine": "goan",
+      "source": "geoapify"
+    },
+    {
+      "name": "Gunpowder",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.5985,
+      "lon": 73.7465,
+      "address": "Assagao",
+      "formatted_address": "Gunpowder, Assagao, Goa, India",
+      "source": "external"
+    },
+    {
+      "name": "Fisherman's Wharf",
+      "city": "Goa",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 15.2500,
+      "lon": 73.9230,
+      "address": "Cavelossim",
+      "formatted_address": "Fisherman's Wharf, Goa, India",
+      "source": "external"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "city": "Gangtok",
+  "data": [
+    {
+      "name": "Do-drul Chorten",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3129,
+      "lon": 88.6048,
+      "address": "NH10",
+      "formatted_address": "Do-drul Chorten, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Tashi Viewpoint",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3707,
+      "lon": 88.6159,
+      "address": "North Sikkim Highway",
+      "formatted_address": "Tashi Viewpoint, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "MG Marg",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3284,
+      "lon": 88.6123,
+      "address": "Mahatma Gandhi Marg",
+      "formatted_address": "MG Marg, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Banjhakri Falls",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3508,
+      "lon": 88.6036,
+      "address": "Lower Burtuk Road",
+      "formatted_address": "Banjhakri Falls, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Hanuman Tok",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3480,
+      "lon": 88.6287,
+      "address": "NH310",
+      "formatted_address": "Hanuman Tok, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Himalayan Zoological Park",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3418,
+      "lon": 88.6211,
+      "address": "Bulbuley",
+      "formatted_address": "Himalayan Zoological Park, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Rumtek Monastery",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.2852,
+      "lon": 88.5566,
+      "address": "Rumtek",
+      "formatted_address": "Rumtek Monastery, Gangtok, Sikkim, India",
+      "source": "external"
+    },
+    {
+      "name": "Tsomgo Lake",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "attraction",
+      "lat": 27.3770,
+      "lon": 88.7616,
+      "address": "Nathu La Road",
+      "formatted_address": "Tsomgo Lake, East Sikkim, India",
+      "source": "external"
+    },
+
+    {
+      "name": "Shuffle Momos",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3302,
+      "lon": 88.6130,
+      "address": "MG Marg",
+      "formatted_address": "Shuffle Momos, Gangtok, Sikkim, India",
+      "website": "https://shuffle-momos.business.site/",
+      "opening_hours": "Mo-Su 11:30-21:30",
+      "cuisine": "indian",
+      "source": "geoapify"
+    },
+    {
+      "name": "Taste of Tibet",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3276,
+      "lon": 88.6126,
+      "address": "MG Marg",
+      "formatted_address": "Taste of Tibet, Gangtok, Sikkim, India",
+      "opening_hours": "Mo-Su 11:30-20:00",
+      "cuisine": "tibetan",
+      "source": "geoapify"
+    },
+    {
+      "name": "The Coffee Shop",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3260,
+      "lon": 88.6118,
+      "address": "MG Marg",
+      "formatted_address": "The Coffee Shop, Gangtok, Sikkim, India",
+      "opening_hours": "Mo-Su 09:00-22:00",
+      "source": "geoapify"
+    },
+    {
+      "name": "The Dragon Wok",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3294,
+      "lon": 88.6126,
+      "address": "MG Marg",
+      "formatted_address": "The Dragon Wok, Gangtok, Sikkim, India",
+      "cuisine": "chinese",
+      "source": "geoapify"
+    },
+    {
+      "name": "Shambala Wok",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3283,
+      "lon": 88.6128,
+      "address": "Tibet Road",
+      "formatted_address": "Shambala Wok, Gangtok, Sikkim, India",
+      "source": "geoapify"
+    },
+    {
+      "name": "Nimtho",
+      "city": "Gangtok",
+      "country": "India",
+      "category": "restaurant",
+      "lat": 27.3310,
+      "lon": 88.6145,
+      "address": "Tibet Road",
+      "formatted_address": "Nimtho, Gangtok, Sikkim, India",
+      "cuisine": "sikkimese",
+      "source": "external"
+    }
+  ]
+}
