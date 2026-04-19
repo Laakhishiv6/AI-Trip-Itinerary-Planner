@@ -1,0 +1,86 @@
+What Was Built                                                                                     
+         
+  Authentication Microservice — backend/auth-service                                                                                                                                                      
+  A standalone FastAPI microservice running on port 8002 that handles user registration with email     OTP verification, login, and JWT-protected routes.                                                                                                                                                      
+  ---
+  Folder Structure
+
+  auth-service/
+  ├── app/
+  │   ├── __init__.py
+  │   ├── config.py          # Settings loaded from .env
+  │   ├── dynamodb.py        # DynamoDB operations (users + pending_otps tables)
+  │   ├── email_sender.py    # Gmail SMTP OTP email sender
+  │   ├── main.py            # FastAPI app + all endpoints
+  │   ├── models.py          # Pydantic request/response schemas
+  │   └── security.py        # bcrypt hashing + JWT sign/verify
+  ├── venv/                  # Python virtual environment
+  ├── .env                   # Real credentials (not committed)
+  ├── .env.example           # Placeholder template
+  ├── requirements.txt
+  └── README.md
+
+  ---
+  Endpoints Built
+
+  ┌────────┬─────────────┬────────────┬─────────────────────────────────────────┐
+  │ Method │    Path     │    Auth    │               Description               │
+  ├────────┼─────────────┼────────────┼─────────────────────────────────────────┤
+  │ GET    │ /health     │ No         │ Health check                            │
+  ├────────┼─────────────┼────────────┼─────────────────────────────────────────┤
+  │ POST   │ /signup     │ No         │ Validates input, sends OTP to email     │
+  ├────────┼─────────────┼────────────┼─────────────────────────────────────────┤
+  │ POST   │ /verify-otp │ No         │ Verifies OTP → creates user in DynamoDB │
+  ├────────┼─────────────┼────────────┼─────────────────────────────────────────┤
+  │ POST   │ /login      │ No         │ Validates credentials → returns JWT     │
+  ├────────┼─────────────┼────────────┼─────────────────────────────────────────┤
+  │ GET    │ /me         │ Bearer JWT │ Returns current user info               │
+  └────────┴─────────────┴────────────┴─────────────────────────────────────────┘
+
+  ---
+  DynamoDB Tables Created
+
+  ┌──────────────┬───────────────┬───────────────────────────────────────────────────────────┐       
+  │    Table     │ Partition Key │                          Purpose                          │       
+  ├──────────────┼───────────────┼───────────────────────────────────────────────────────────┤       
+  │ users        │ email         │ Stores verified users                                     │       
+  ├──────────────┼───────────────┼───────────────────────────────────────────────────────────┤       
+  │ pending_otps │ email         │ Temporarily stores OTP + signup data with TTL auto-expiry │       
+  └──────────────┴───────────────┴───────────────────────────────────────────────────────────┘       
+
+  ---
+  Signup Flow
+
+  POST /signup  →  generates 6-digit OTP  →  stores hashed OTP in pending_otps  →  sends email       
+  POST /verify-otp  →  checks OTP + expiry  →  creates user in users table  →  deletes pending record
+  POST /login  →  validates password  →  returns JWT token
+
+  ---
+  Errors Faced & How They Were Fixed
+
+  ---
+  Error 1 — venv\Scripts\activate not found
+
+  Cause: Running in bash (Git Bash), which doesn't understand Windows backslash paths. The && chain  
+  also meant activation was skipped when the first command failed.
+
+  Fix: Run the two commands separately and use forward slashes:
+  python -m venv venv
+  source venv/Scripts/activate
+
+  ---
+  Error 2 — UnrecognizedClientException: The security token included in the request is invalid       
+
+  Cause: The .env file still had placeholder values from .env.example. DynamoDB rejected the fake AWS
+   credentials on startup.
+
+  Fix: Replaced .env contents with real AWS credentials (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY).  
+
+  ---
+  Error 3 — ModuleNotFoundError: No module found 'fastapi'
+
+  Cause: pip install ran against the global Python, not the venv. The venv was created but packages  
+  were never installed inside it. Running uvicorn via the venv then couldn't find any packages.      
+
+  Fix: Install directly using the venv's Python binary:
+  venv/Scripts/python.exe -m pip install -r requirements.txt
