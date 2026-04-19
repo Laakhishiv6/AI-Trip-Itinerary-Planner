@@ -1,0 +1,88 @@
+Full Summary — Voyonata Travel Data Microservice
+
+  ---                                                                                                  What Was Built
+                                                                                                       A FastAPI microservice that reads travel data from local JSON files and stores it in AWS DynamoDB,   exposing a REST API for querying cities and places.                                                                                                                                                       Folder structure:                                                                                  
+  backend/
+  ├── app/
+  │   ├── __init__.py
+  │   ├── config.py      # AWS credentials via pydantic-settings + .env
+  │   ├── dynamodb.py    # Table creation, batch writes, queries
+  │   ├── loader.py      # JSON → DynamoDB pipeline
+  │   ├── main.py        # FastAPI app + 3 endpoints
+  │   └── models.py      # Pydantic response models
+  ├── requirements.txt
+  └── .env.example
+
+  DynamoDB table travel_data:
+
+  ┌────────────────────┬────────┬────────────────────────┐
+  │        Key         │  Type  │        Example         │
+  ├────────────────────┼────────┼────────────────────────┤
+  │ city (PK)          │ String │ "goa"                  │
+  ├────────────────────┼────────┼────────────────────────┤
+  │ category_name (SK) │ String │ "restaurant#Gunpowder" │
+  └────────────────────┴────────┴────────────────────────┘
+
+  3 endpoints:
+  - GET /health — service liveness check
+  - GET /explore?city=Goa — all places in a city
+  - GET /places?city=Goa&category=restaurant — filtered by category
+  - POST /admin/load-data — triggers full JSON → DynamoDB load
+
+  275 records loaded across 17 cities (Goa, Tokyo, Paris, Dubai, etc.)
+
+  ---
+  Errors Encountered & How They Were Fixed
+
+  ---
+  Error 1 — uvicorn app.main:uvicorn
+  - Cause: Typo in the startup command — uvicorn was used as the app object name instead of app      
+  - Fix: Corrected to uvicorn app.main:app --reload
+
+  ---
+  Error 2 — AttributeError: 'str' object has no attribute 'get'
+  - Cause: seoul_final.json had a different JSON structure. All other city files had data as a flat  
+  list [{...}, {...}], but Seoul had data as a nested dict {"attractions": [...], "restaurants":     
+  [...]}. The loader iterated data directly and hit a string key instead of a dict item.
+  - Fix: Updated loader.py to detect whether data is a list or a dict, and flatten nested dicts by   
+  merging all their sub-lists:
+  if isinstance(raw_data, dict):
+      raw_items = []
+      for sub_list in raw_data.values():
+          if isinstance(sub_list, list):
+              raw_items.extend(sub_list)
+  Also added if not isinstance(item, dict): continue as a safety guard.
+
+  ---
+  Error 3 — Stale .pyc bytecode showing misleading traceback
+  - Cause: After the fix, the server's hot-reload updated the source file but Python 3.11's enhanced 
+  traceback was displaying new source lines against old bytecode position info — making raw_items =  
+  [] appear to be the crashing line, which was impossible and very confusing.
+  - Fix: Cleared all __pycache__ directories and did a clean server restart.
+
+  ---
+  Error 4 — ModuleNotFoundError: No module named 'boto3'
+  - Cause: pip install -r requirements.txt was run before source venv/Scripts/activate, so all       
+  packages installed into the system Python, not the venv. The server running inside the venv had    
+  zero packages.
+  - Fix: Re-ran pip install -r requirements.txt after activating the venv. All 30+ packages installed
+   correctly inside venv/.
+
+  ---
+  Error 5 — Data load reported success but DynamoDB was empty
+  - Cause: The travel_data table didn't exist in AWS yet. The create_table_if_not_exists() function  
+  was only called by the FastAPI lifespan (server startup), but when the loader ran directly via     
+  python -c "...", it skipped that step. boto3's batch_writer silently failed to write to a
+  non-existent table without raising an exception to the caller — so written: N counts were returned 
+  as if everything worked.
+  - Fix: Added create_table_if_not_exists() call at the top of load_all_cities() so the loader is    
+  self-sufficient whether called via FastAPI or directly.
+
+  ---
+  One thing worth noting: The commit included backend/venv/, backend/.env (with real AWS
+  credentials), and __pycache__ — none of these should be in git. You should add a .gitignore to     
+  backend/ before pushing to a remote:
+  venv/
+  .env
+  __pycache__/
+  *.pyc

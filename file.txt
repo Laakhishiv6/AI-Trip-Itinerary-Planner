@@ -1,3 +1,4 @@
+Prompt 1
 You are a senior frontend engineer.
 
 Generate a complete frontend-only application for an AI Itinerary Planner in @frontend/ directly only using:
@@ -25,7 +26,7 @@ Do NOT create your own design. Replicate layout, spacing, colors, and structure 
 - In Dashboard upon clicking  "Plan A Trip" it should direct to other page just like how it is shown in Planning.png image which i uploaded in this folder .Give options as shown such as  "Where do you want to go?" , start data end date, number of travellers, budget preference, activity suggestions in which we can select multiple options such as Beaches, Nightlife, Zoo etc , and food preferences such as non veg, veg, halal.
 - Upon setting all the options the system should generate an Itinery just like how it is shown in Generation.png image which i uploaded in this project's folder.
 
-
+Prompt 2
 For knowing about the context of what has happened in the previous session i have created context in a file in this project folder named as compact_summary_1.txt .
 You are a backend engineer.
 1. Reads JSON files from /data folder
@@ -66,4 +67,51 @@ Output:
 * Folder structure
 * Setup instructions
 
+Prompt 3
+What was previously Built:
 
+This project is for creating a AI trip itinerary planner and the architecture used is microservices.
+
+
+Previously we have set up 1 microservice named Database which is inside of @backend/Database. The purpose of that service was to create a database in dynamoDB and store places, attractions and resturant information of each city. 
+
+Constraints:
+- Each microservice must be independent
+- Each service runs on separate port
+- No shared database access except DynamoDB where required
+
+What you have to build :
+You are a backend engineer.
+
+Create an Authentication microservice using FastAPI inside @backend/auth-service.
+
+Your task is to create a UserSignup, user login and add token generation features by using fastapi.
+For data stirage in dynamoDB use separate table :users and keep the partition keys as email
+
+
+Features:
+- Secure password hashing
+- JWT token generation
+- Input validation
+
+Endpoints:
+- POST /signup
+- POST /login
+
+Behavior:
+- Signup → store user in DynamoDB
+- Login → validate credentials → return JWT
+- Protected routes require JWT
+
+Output:
+- Full folder structure
+- All code files
+- Requirements.txt
+- Setup instructions
+
+Constraints:
+- This is a standalone microservice
+- Runs on port 8002
+- Must NOT depend on other services
+
+After this is done the next task which you have to do is actually validate whether the email is correct or not by sending an OTP during singup only. As the correct OTP email is received and entered by user it means that the email is is not fake.
