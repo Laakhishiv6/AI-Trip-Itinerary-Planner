@@ -115,3 +115,27 @@ Constraints:
 - Must NOT depend on other services
 
 After this is done the next task which you have to do is actually validate whether the email is correct or not by sending an OTP during singup only. As the correct OTP email is received and entered by user it means that the email is is not fake.
+
+Prompt 4:
+Please refer the @data folder in which there are multiple json files containing cities and inside of each city the name of restaurants, hotels and attractions are mentioned.
+I'm building an AI itinerary generation project so i need more data for all these cities (for eg. mumbai, agra etc) .
+- Your task is to fetch correct and more data without hallucinating. 
+- The data should be in the same format for all the folders since it has to be store in the database as well. Please do take a look into one of the files for the correct type of format and populate more data.
+
+Prompt 4:
+You are a senior backend developer.
+Your task is to create a microservice inside of @backend named as user_details. The purpose of this service is to take user input as trip details. 
+-  There will be only 1  endpoint name will be /plan using fastapi.
+- Refer to @Planner1.png and create the backend service in which users can enter information like Where do you want to go? , Start Date, End date, Number of travellers.
+- After that look at @Planner2.png it should also let users enter budget preference , activity preferences based on the type of activities or tags stored in dynamodb database. as well as food preference which is also stored in dynamodb.
+
+
+Prompt 5:
+You are a senior AI engineer
+Create a microservice endpoint inside of @backend with the name of rag.
+The purpose of this pipeline is to create  a full end-to-end pipeline.
+Firstly whatever data is there in dynamodb you have to convert it into embeddings using sentence transformers and store it in pinecone database for vector search.
+
+- Create a function inside of @backend/rag/app/embeddings.py to convert the user details which are entered by users from @backend/user_details/app/main
+
+- Now we are at the last stage of the rag pipeline in which 

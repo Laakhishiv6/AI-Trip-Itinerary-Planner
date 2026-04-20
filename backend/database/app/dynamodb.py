@@ -45,8 +45,12 @@ def create_table_if_not_exists():
 
 
 def batch_write_places(places: list[dict]):
+    from decimal import Decimal
+
+    SKIP_FIELDS = {"city", "lat", "lon"}
+    FLOAT_FIELDS = {"lat", "lon", "rating", "price"}
+
     table = get_table()
-    # DynamoDB batch_write allows max 25 items per call
     chunk_size = 25
     written = 0
     for i in range(0, len(places), chunk_size):
@@ -56,19 +60,18 @@ def batch_write_places(places: list[dict]):
                 item = {
                     "city": place["city"].lower(),
                     "category_name": f"{place['category']}#{place['name']}",
-                    "name": place["name"],
-                    "category": place.get("category", ""),
-                    "country": place.get("country", ""),
                 }
+                for key, val in place.items():
+                    if key in SKIP_FIELDS or val is None or val == "":
+                        continue
+                    if key in FLOAT_FIELDS:
+                        item[key] = Decimal(str(val))
+                    else:
+                        item[key] = val
                 if place.get("lat") is not None:
-                    from decimal import Decimal
                     item["lat"] = Decimal(str(place["lat"]))
                 if place.get("lon") is not None:
-                    from decimal import Decimal
                     item["lon"] = Decimal(str(place["lon"]))
-                for field in ("address", "formatted_address", "website", "source"):
-                    if place.get(field):
-                        item[field] = place[field]
                 batch.put_item(Item=item)
                 written += 1
     return written

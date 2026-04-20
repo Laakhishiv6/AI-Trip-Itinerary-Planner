@@ -6,7 +6,7 @@ from .config import settings
 
 def load_all_cities() -> dict:
     data_dir = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "..", "data")
+        os.path.join(os.path.dirname(__file__), "..", "..", "..", "data")
     )
     if not os.path.isdir(data_dir):
         data_dir = os.path.abspath(settings.data_dir)
